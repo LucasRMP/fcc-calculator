@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { buttons } from '../../utils';
+import { buttons } from '../../utils/app';
+
+import './styles.css';
 
 function Keyboard({ handleClick }) {
   return (
-    <div>
-      <h1>Keyboard</h1>
+    <div id='keyboard-container'>
       {buttons.map(btn => (
         <button
           key={btn.id}

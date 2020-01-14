@@ -1,5 +1,4 @@
-
-function isOperator(n) {
+export function isOperator(n) {
   return (
     n === '/' ||
     n === 'x' ||
@@ -8,14 +7,14 @@ function isOperator(n) {
   )
 }
 
-const operations = {
+export const operations = {
   '+': (x, y) => x + y,
   '-': (x, y) => x - y,
   'x': (x, y) => x * y,
   '/': (x, y) => x / y,
 }
 
-function stringToCalc(str = '') {
+export function stringToCalc(str = '') {
   const result = [];
   let lastIndex = 0;
   for(let i = 0; i < str.length; i++) {
@@ -29,7 +28,7 @@ function stringToCalc(str = '') {
   return result;
 }
 
-function solve(arr = [0, '+', 0]) {
+export function solve(arr = [0, '+', 0]) {
   if (arr.length <= 3) {
     const result = operations[arr[1]](arr[0], arr[2]);
     return result;

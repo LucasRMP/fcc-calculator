@@ -1,8 +1,8 @@
-- [] **User Story #1:** My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".
+- [x] **User Story #1:** My calculator should contain a clickable element containing an = (equal sign) with a corresponding id="equals".
 
-- [] **User Story #2:** My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".
+- [x] **User Story #2:** My calculator should contain 10 clickable elements containing one number each from 0-9, with the following corresponding IDs: id="zero", id="one", id="two", id="three", id="four", id="five", id="six", id="seven", id="eight", and id="nine".
 
-- [] **User Story #3:** My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id="add", id="subtract", id="multiply", id="divide".
+- [x] **User Story #3:** My calculator should contain 4 clickable elements each containing one of the 4 primary mathematical operators with the following corresponding IDs: id="add", id="subtract", id="multiply", id="divide".
 
 - [] **User Story #4:** My calculator should contain a clickable element containing a . (decimal point) symbol with a corresponding id="decimal".
 
